@@ -26,11 +26,3 @@ A simple and lightweight RAM timing viewer built specifically for **Intel 12th, 
 | Future Gens    | 🚧        | May work — testing ongoing     |
 
 ---
-
-## 📥 Installation
-
-Clone the repo:
-
-```bash
-git clone https://github.com/yourusername/ram-timing-viewer-intel.git
-cd ram-timing-viewer-intel

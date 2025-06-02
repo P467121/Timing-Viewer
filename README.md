@@ -10,9 +10,10 @@ A simple and lightweight RAM timing viewer built specifically for **Intel 12th, 
 
 - 🔍 View detailed memory timings (primary, secondary, tertiary)
 - 💾 Supports DDR4 & DDR5
-- 📊 Real-time data display
+- 📊 Data display
 - 🧩 Minimal and clean UI
 - 🔒 No data collection – fully offline
+- 📁 Open source
 
 ---
 

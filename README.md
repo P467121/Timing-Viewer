@@ -28,3 +28,7 @@ A simple and lightweight RAM timing viewer built specifically for **Intel 12th, 
 | Future Gens    | 🚧        | May work — testing ongoing     |
 
 ---
+
+> ⚠️ For source code compile customtkinter, wmi, and pyinstaller need to be installed with pip ⚠️
+
+---

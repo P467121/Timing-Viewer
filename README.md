@@ -20,6 +20,7 @@ A simple and lightweight RAM timing viewer built specifically for **Intel 12th, 
 
 | Generation     | Supported | Notes                          |
 |----------------|-----------|--------------------------------|
+| Previous Intel Gens | ❌        | All older gens              |
 | Intel 12th Gen | ✅        | Alder Lake                     |
 | Intel 13th Gen | ✅        | Raptor Lake                    |
 | Intel 14th Gen | ✅        | Raptor Lake Refresh            |

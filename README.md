@@ -35,6 +35,15 @@ The tool is designed to work with the following Intel CPU generations:
 
 ---
 
+
+| Generation          | Supported  | Notes                                  |
+|---------------------|------------|----------------------------------------|
+| DDR4 | 🚧         | Partial Support for DDR4, tWR/tRTP and skew wont work |
+| DDR5 | ✅        | Full Support for DDR5 |
+| DDR6+ | ✅        | Will be added once they drop. |
+
+---
+
 ## 🛠️ Installation for Source Code
 
 If you want to run the **RAM Timing Viewer** from the source code, you can follow the steps below.

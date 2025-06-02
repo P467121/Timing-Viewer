@@ -29,7 +29,7 @@ The tool is designed to work with the following Intel CPU generations:
 | Intel 12th Gen (Alder Lake) | ✅       | Full support for 12th gen (Alder Lake). |
 | Intel 13th Gen (Raptor Lake) | ✅       | Full support for 13th gen (Raptor Lake). |
 | Intel 14th Gen (Raptor Lake Refresh) | ✅ | Full support for 14th gen (Raptor Lake Refresh). |
-| Future Intel Generations | 🚧        | Ongoing testing, may work for future releases. |
+| Future Intel Generations | ➖        | Ongoing testing, may work for future generations. |
 
 **Note:** Future Intel generations may require updates to ensure compatibility. Stay tuned for updates and improvements!
 

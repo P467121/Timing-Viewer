@@ -1,40 +1,53 @@
 # 🧠 RAM Timing Viewer for Intel CPUs 🧠
 
-A simple and lightweight RAM timing viewer built specifically for **Intel 12th, 13th, 14th**, and potentially **future generations** (👀). Whether you're tweaking memory settings or just curious about what your DDR modules are doing — this tool helps you dig into the **real-time timings** easily.  
+A **lightweight** and **intuitive** tool designed to give you real-time insights into the **RAM timings** of Intel CPUs. Whether you're an enthusiast tweaking your memory settings or a casual user curious about your DDR modules, this tool makes it easy to monitor and understand how your RAM is performing.
 
-> ⚠️ **Intel Only** – This tool does **not** support AMD platforms.
+This viewer supports **Intel 12th, 13th, and 14th generation** processors, and future Intel CPU generations may also be supported (fingers crossed 🤞).
+
+> ⚠️ **Note:** Currently, this tool is **Intel-only** and does **not support AMD platforms**.
 
 ---
 
-## 🛠 Features
+## 🚀 Features
 
-- 🔍 View detailed memory timings (primary, secondary, tertiary)
-- 💾 Supports DDR4 & DDR5
-- 📊 Data display
-- 🧩 Minimal and clean UI
-- 🔒 No data collection – fully offline
-- 📁 Open source
+- 🔍 **Comprehensive Memory Timings:** View detailed information about your memory timings, including **Primary**, **Secondary**, and **Tertiary** timings.
+- 💾 **DDR4 & DDR5 Support:** Whether you're using DDR4 or DDR5 RAM, this tool supports both generations of memory.
+- 📊 **Real-time Data Display:** Instantly see your RAM timings in a clean, easy-to-read format.
+- 🧩 **Minimal & Clean UI:** Focus on what's important, with a simple and user-friendly interface.
+- 🔒 **Fully Offline:** No data collection. All the information is stored locally on your machine, ensuring privacy and security.
+- 📁 **Open Source:** Free to use, contribute to, or modify. Hosted on [GitHub](link-to-repo).
 
 ---
 
 ## 💻 Supported Platforms
 
-| Generation     | Supported | Notes                          |
-|----------------|-----------|--------------------------------|
-| Previous Intel Gens | ❌        | All older gens              |
-| Intel 12th Gen | ✅        | Alder Lake                     |
-| Intel 13th Gen | ✅        | Raptor Lake                    |
-| Intel 14th Gen | ✅        | Raptor Lake Refresh            |
-| Future Gens    | 🚧        | May work — testing ongoing     |
+The tool is designed to work with the following Intel CPU generations:
+
+| Generation          | Supported  | Notes                                  |
+|---------------------|------------|----------------------------------------|
+| Intel 10th Gen & Below | ❌         | Not supported. Older Intel CPUs not compatible. |
+| Intel 12th Gen (Alder Lake) | ✅       | Full support for 12th gen (Alder Lake). |
+| Intel 13th Gen (Raptor Lake) | ✅       | Full support for 13th gen (Raptor Lake). |
+| Intel 14th Gen (Raptor Lake Refresh) | ✅ | Full support for 14th gen (Raptor Lake Refresh). |
+| Future Intel Generations | 🚧        | Ongoing testing, may work for future releases. |
+
+**Note:** Future Intel generations may require updates to ensure compatibility. Stay tuned for updates and improvements!
 
 ---
 
-**Plans for Future Updates:**
-- Full support for all generations.
-- Potential support for AMD in upcoming releases.
-  
----
+## 🛠️ Installation Instructions
 
-> ⚠️ For source code compile customtkinter, wmi, and pyinstaller need to be installed with pip ⚠️
+### Prerequisites:
 
----
+Before running the tool, make sure you have the following libraries installed:
+
+1. **Python 3.x** (preferably the latest stable release).
+2. Required Python packages:
+   - `customtkinter` – for the graphical user interface.
+   - `wmi` – for Windows Management Instrumentation (to fetch system data).
+   - `pyinstaller` – for packaging the application (if you want to compile it yourself).
+
+You can install the dependencies using `pip`:
+
+```bash
+pip install customtkinter wmi pyinstaller

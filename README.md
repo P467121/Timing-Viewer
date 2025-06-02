@@ -29,8 +29,6 @@ A simple and lightweight RAM timing viewer built specifically for **Intel 12th, 
 
 ---
 
-##Future
-
 **Plans for Future Updates:**
 - Full support for all generations.
 - Potential support for AMD in upcoming releases.\

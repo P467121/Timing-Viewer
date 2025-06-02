@@ -35,19 +35,21 @@ The tool is designed to work with the following Intel CPU generations:
 
 ---
 
-## 🛠️ Installation Instructions
+## 🛠️ Installation for Source Code
+
+If you want to run the **RAM Timing Viewer** from the source code, you can follow the steps below.
 
 ### Prerequisites:
 
-Before running the tool, make sure you have the following libraries installed:
+Before running the tool, ensure you have the following installed:
 
-1. **Python 3.x** (preferably the latest stable release).
-2. Required Python packages:
-   - `customtkinter` – for the graphical user interface.
-   - `wmi` – for Windows Management Instrumentation (to fetch system data).
-   - `pyinstaller` – for packaging the application (if you want to compile it yourself).
+- **Python 3.x** (preferably the latest stable release).
+- Required Python libraries:
+  - `customtkinter` – for the graphical user interface.
+  - `wmi` – for Windows Management Instrumentation (to fetch system data).
+  - `pyinstaller` – for packaging the application (if you want to compile it yourself).
 
-You can install the dependencies using `pip`:
+To install the dependencies, run:
 
 ```bash
 pip install customtkinter wmi pyinstaller
